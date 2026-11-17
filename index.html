@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jairo Bankhardt Producoes Ltda</title>
+<meta name="description" content="Jairo Bankhardt Producoes Ltda, empresa de Curitiba (PR) com atuação em treinamento profissional, tecnologia da informação e produção de conteúdo.">
+<style>
+  :root {
+    --ink: #17222b;
+    --muted: #51606c;
+    --paper: #f6f8f9;
+    --surface: #ffffff;
+    --line: #d8e0e5;
+    --accent: #0f5c63;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8eef2;
+      --muted: #a3b2bd;
+      --paper: #11181d;
+      --surface: #19232a;
+      --line: #2c3a43;
+      --accent: #6cc4cc;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 72px 0 40px; border-bottom: 1px solid var(--line); }
+  h1 {
+    margin: 0 0 16px;
+    font: 700 clamp(2rem, 6vw, 3.1rem)/1.1 Georgia, "Times New Roman", serif;
+    letter-spacing: -0.01em;
+  }
+  .lead { margin: 0; max-width: 60ch; color: var(--muted); font-size: 1.1rem; }
+  section { padding: 40px 0; border-bottom: 1px solid var(--line); }
+  h2 { margin: 0 0 16px; font: 700 1.35rem/1.3 Georgia, "Times New Roman", serif; }
+  ul { margin: 0; padding-left: 1.2em; }
+  li { margin-bottom: 8px; max-width: 62ch; }
+  dl { margin: 0; display: grid; grid-template-columns: 11rem 1fr; gap: 10px 20px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; }
+  footer { padding: 32px 0 56px; color: var(--muted); font-size: 0.9rem; }
+  @media (max-width: 520px) {
+    dl { grid-template-columns: 1fr; gap: 2px; }
+    dd { margin-bottom: 12px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Jairo Bankhardt Producoes Ltda</h1>
+    <p class="lead">Empresa sediada em Curitiba, Paraná, que atua com treinamento e desenvolvimento profissional, tecnologia da informação e produção de conteúdo.</p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <h2>O que fazemos</h2>
+      <ul>
+        <li>Treinamentos em desenvolvimento profissional e gerencial, e em informática.</li>
+        <li>Consultoria em tecnologia da informação e em gestão empresarial.</li>
+        <li>Desenvolvimento e licenciamento de programas de computador.</li>
+        <li>Produção de conteúdo audiovisual, incluindo serviços de dublagem.</li>
+        <li>Organização de eventos e atividades culturais.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Dados da empresa</h2>
+      <dl>
+        <dt>Razão social</dt>
+        <dd>Jairo Bankhardt Producoes Ltda</dd>
+        <dt>CNPJ</dt>
+        <dd>27.319.035/0001-44</dd>
+        <dt>Natureza jurídica</dt>
+        <dd>Sociedade Empresária Limitada</dd>
+        <dt>Endereço</dt>
+        <dd>Rua Francisco Torres, 581, Conj 502, Andar 05, Condomínio Horizonte<br>Centro, Curitiba, PR, CEP 80060-130</dd>
+        <dt>Telefone</dt>
+        <dd>(41) 99611-2665</dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    © <span id="ano">2026</span> Jairo Bankhardt Producoes Ltda. Todos os direitos reservados.
+  </div>
+</footer>
+<script>
+  document.getElementById("ano").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
